@@ -1,0 +1,36 @@
+/*Reset margin dan pading pada tag body*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 5rem;
+}
+/* Flex COntainer*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 0.5rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blueviolet;
+}
