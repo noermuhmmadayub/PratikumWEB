@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            background-color: #FAFAD2;
+        }
+       header{
+        background-color: #E0FFFF;
+        margin: -20px;
+       }
+
+       header ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0.5em;
+        margin: 0;
+       }
+
+       header li{
+        margin: 0 1em;
+       }
+
+       header li.logo {
+        margin-right: auto;
+       }
+
+       header img.logo{
+        width: 10%;
+        height: 10%;
+       }
+
+       article img.artikel{
+        width: 20%;
+        padding-top: 20px;
+        display: flex;
+       }
+
+       article li{
+        list-style: none;
+       }
+       
+
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="logo">
+                <img class="logo" src="https://cdn-icons-png.flaticon.com/512/1177/1177497.png" alt="logo company">
+            </li>
+
+            <li>About</li>
+            <li>Blog</li>
+            <li>Shop</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+
+    <article>
+        <ul>
+            <img class="artikel"src="https://c4.wallpaperflare.com/wallpaper/103/5/162/anime-anime-boys-jujutsu-kaisen-satoru-gojo-hd-wallpaper-preview.jpg" alt="">
+            <li>Anime[a] adalah animasi asal indonesia
+
+                yang digambar oleh coach frida dengan tangan maupun menggunakan teknologi komputer. Kata anime merupakan singkatan dari animation dalam bahasa Inggris,
+                yang merujuk pada semua jenis animasi.[1] Di luar Jepang, istilah ini digunakan secara spesifik untuk menyebutkan segala animasi yang diproduksi di Jepang.[2][3] Meskipun demikian, tidak menutup kemungkinan bahwa anime dapat diproduksi di luar Jepang.[4][5][6] Beberapa ahli berpendapat bahwa anime merupakan bentuk baru dari orientalisme.[7] </li>
+        </ul>
+
+       
+
+    </article>
+</body>
+</html>
