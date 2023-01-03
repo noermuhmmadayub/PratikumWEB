@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SIWIKODE | Dashboard</title>
+  <title>Peminjaman Ruang</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -40,7 +40,19 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Fasilitas</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Booking</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Berita</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="about.html" class="nav-link">Tentang Kami</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -175,7 +187,7 @@
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <img src="dist/img/siwikode.png" alt="Siwikode logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">SIWIKODE</span>
+      <span class="brand-text font-weight-light">eRuang-Backend</span>
     </a>
 
     <!-- Sidebar -->
@@ -186,7 +198,7 @@
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">user</a>
         </div>
       </div>
 
@@ -207,31 +219,35 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+
           <li class="nav-item menu-open">
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                Ruangan
+                <i class="right fas fa-angle-left"></i>
               </p>
             </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-plane-departure"></i>
-              <p>
-                Daftar Wisata
-              </p>
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-list"></i>
-              <p>
-                Jenis Wisata
-              </p>
-            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Peminjaman</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index2.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Jadwal</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./index3.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Logout</p>
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
@@ -247,7 +263,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard</h1>
+            <h1 class="m-0">eRuang - Sistem Peminjaman Ruangan Nurul Fikri</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -264,123 +280,69 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-        <div class="row">
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>150</h3>
-
-                <p>Wisata Baru</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-folder-plus"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>200</h3>
-
-                <p>Total Wisata</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-stats-bars"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>User Registrations</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>65</h3>
-
-                <p>Unique Visitors</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-        </div>
+   
         <!-- /.row -->
         <!-- Main row -->
-        <div class="card">
-          <div class="card-header">
-          <h5>Wisata Yang Baru Ditambahkan</h5>
-        </div>
+        <form>
+          <div class="form-group row">
+            <label for="text" class="col-4 col-form-label">Nama Ruangan :</label> 
+            <div class="col-8">
+              <input id="text" name="text" type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="select" class="col-4 col-form-label">Kategori</label> 
+            <div class="col-8">
+              <select id="select" name="select" class="custom-select">
+                <option value="aula">Aula</option>
+                <option value="room meeting 1">Room Meeting 1</option>
+                <option value="Room meeting 2">Room Meeting 2</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="ruangan" class="col-4 col-form-label">Deskripsi Ruangan</label> 
+            <div class="col-8">
+              <textarea id="ruangan" name="ruangan" cols="40" rows="5" class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4">Fasilitas Ruangan</label> 
+            <div class="col-8">
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input name="checkbox" id="checkbox_0" type="checkbox" class="custom-control-input" value="sound system"> 
+                <label for="checkbox_0" class="custom-control-label">Sound System</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input name="checkbox" id="checkbox_1" type="checkbox" class="custom-control-input" value="wifi"> 
+                <label for="checkbox_1" class="custom-control-label">Wifi</label>
+              </div>
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input name="checkbox" id="checkbox_2" type="checkbox" class="custom-control-input" value="layar besar"> 
+                <label for="checkbox_2" class="custom-control-label">Layar Besar</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="text1" class="col-4 col-form-label">Kapasitas</label> 
+            <div class="col-8">
+              <input id="text1" name="text1" type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="text2" class="col-4 col-form-label">Lokasi Ruangan</label> 
+            <div class="col-8">
+              <input id="text2" name="text2" type="text" class="form-control">
+            </div>
+          </div> 
+          <div class="form-group row">
+            <div class="offset-4 col-8">
+              <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
         
-        <div class="card-body"></div> 
-          <table class="table">
-            <thead>
-              <th>No</th>
-              <th>Nama Wisata</th>
-              <th>Jenis Wisata</th>
-              <th>Rating</th>
-              <th>Opsi</th>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Taman Wiladatika</td>
-                <td>Rekreasi</td>
-                <td>8.9 / 10</td>
-                <td>
-                <a href="#" class="btn btn-info">Edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
-
-              </td>
-              </tr>
-
-              <tr>
-                <td>2</td>
-                <td>Taman Wiladatika 2</td>
-                <td>Rekreasi</td>
-                <td>8.9 / 10</td>
-                <td>
-                <a href="#" class="btn btn-primary">Edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
-
-              </td>
-              </tr>
-
-              <tr>
-                <td>3</td>
-                <td>Taman Wiladatika 3</td>
-                <td>Rekreasi</td>
-                <td>8.9 / 10</td>
-                <td>
-                <a href="#" class="btn btn-info">Edit</a>
-                <a href="#" class="btn btn-danger">Hapus</a>
-
-              </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        
         <!-- /.row (main row) -->
       </div><!-- /.container-fluid -->
     </section>
